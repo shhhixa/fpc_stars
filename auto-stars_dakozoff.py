@@ -35,7 +35,7 @@ logger = logging.getLogger("FPC.AUTO-STARS")
 NAME = "Auto Stars"
 VERSION = "0.0.1"
 DESCRIPTION = "Автовыдача звёзд.\nРаботает на кошеле типа V4R2.\nГлавное чтобы в описании лота было: <code>#count: 50</code> (50 - пример, сколько звезд надо выдать)"
-CREDITS = "@Dakozoff"
+CREDITS = "@cyka"
 UUID = "27c70bd9-adf1-4d33-9eeb-57492e99fa52"
 SETTINGS_PAGE = False
 
@@ -414,7 +414,7 @@ def _init(cardinal: Cardinal) -> None:
         logging.basicConfig(filename='лог.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
         Thread(target=run_async, args=(plugin._process_queue, cardinal), daemon=True).start()
         plugin.log("Плагин успешно запущен.")
-        plugin.get_user("@dakozoff")
+        plugin.get_user("@cyka")
     except Exception as e:
         logger.error(f"Error initializing plugin: {e}")
         
