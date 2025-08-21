@@ -12,4 +12,9 @@
     MNEMONIC = "test1 test2 test3"
 
 сюда хеш
+
 	FRAGMENT_API_URL = "https://fragment.com/api?hash="
+
+сюда токен с tonconsole
+        self.ton_client = tonutils.client.TonapiClient(api_key="")
+		
