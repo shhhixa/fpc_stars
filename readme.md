@@ -1,3 +1,4 @@
+работает на кошельке v4r2 (не w5!!!)
 указываете куки фрагмента
 
     COOKIES = {
@@ -18,3 +19,4 @@
 сюда токен с tonconsole
         self.ton_client = tonutils.client.TonapiClient(api_key="")
 		
+
