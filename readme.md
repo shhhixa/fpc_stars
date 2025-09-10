@@ -1,4 +1,5 @@
 работает на кошельке v4r2 (не w5!!!)
+
 в описании лота надо указать #count: 50 (кол-во звезд)
 
 указываете куки фрагмента
@@ -21,5 +22,6 @@
 сюда токен с tonconsole
         self.ton_client = tonutils.client.TonapiClient(api_key="")
 		
+
 
 
